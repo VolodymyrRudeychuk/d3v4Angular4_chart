@@ -12,7 +12,8 @@ import { STATISTICS } from './shared/data';
   selector: 'app-root',
   template: `
     <h1>{{title}} <span class="timer">{{ticks}}</span> </h1>
-    <h2>{{subtitle}}</h2>
+    <h2>{{subtitle}} <a href="https://github.com/VolodymyrRudeychuk/d3v4Angular4_chart.git">Here is Git repository</a></h2>
+
     <svg width="640" height="480"></svg>
   `
 })
