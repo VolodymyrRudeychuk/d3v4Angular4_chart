@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis-title {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+.bar--positive {
+  fill: #719616;
+
+}
+
+.bar--negative {
+  fill: #F39100;
+
+}
+.axis text {
+      font: 12px sans-serif;
+      font-weight: bold;
+      text-align: center;
+
+    }
+
+.timer {
+  color: #719616;
+}
+
+.axis path,
+.axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+      display: none;
+    }
